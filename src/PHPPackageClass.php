@@ -4,7 +4,6 @@ namespace Mht\PHPPackage;
 
 class PHPPackageClass
 {
-
     public static function kilograms(float $kilograms): self
     {
         return new static($kilograms);
@@ -12,7 +11,6 @@ class PHPPackageClass
 
     public function __construct(protected float $kilograms)
     {
-
     }
 
     public function toPound(): float
